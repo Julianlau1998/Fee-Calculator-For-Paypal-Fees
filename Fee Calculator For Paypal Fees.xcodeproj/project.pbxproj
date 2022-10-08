@@ -13,9 +13,14 @@
 		B98CC5F228D8EF1600094680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98CC5F028D8EF1600094680 /* Main.storyboard */; };
 		B98CC5F428D8EF1900094680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98CC5F328D8EF1900094680 /* Assets.xcassets */; };
 		B98CC5F728D8EF1900094680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98CC5F528D8EF1900094680 /* LaunchScreen.storyboard */; };
+		B98CC5FF28D8F0FC00094680 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98CC5FE28D8F0FC00094680 /* GoogleMobileAds.xcframework */; };
+		D11905603EF90184A621FD6B /* Pods_Fee_Calculator_For_Paypal_Fees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C111176E1D96070940BFD /* Pods_Fee_Calculator_For_Paypal_Fees.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0546096F75210F17ACDBBB89 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fee Calculator For Paypal Fees.release.xcconfig"; path = "Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees.release.xcconfig"; sourceTree = "<group>"; };
+		227C111176E1D96070940BFD /* Pods_Fee_Calculator_For_Paypal_Fees.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fee_Calculator_For_Paypal_Fees.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06FDBC4F49BBA5140A80CBF /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fee Calculator For Paypal Fees.debug.xcconfig"; path = "Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees.debug.xcconfig"; sourceTree = "<group>"; };
 		B98CC5E728D8EF1600094680 /* Fee Calculator For Paypal Fees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fee Calculator For Paypal Fees.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98CC5EA28D8EF1600094680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98CC5EC28D8EF1600094680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		B98CC5F328D8EF1900094680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98CC5F628D8EF1900094680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B98CC5F828D8EF1900094680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98CC5FE28D8F0FC00094680 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98CC5FF28D8F0FC00094680 /* GoogleMobileAds.xcframework in Frameworks */,
+				D11905603EF90184A621FD6B /* Pods_Fee_Calculator_For_Paypal_Fees.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4057AB5EC9A271C99DF66516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06FDBC4F49BBA5140A80CBF /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */,
+				0546096F75210F17ACDBBB89 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BDDDF9BEEAE9FFAB1B490CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B98CC5FE28D8F0FC00094680 /* GoogleMobileAds.xcframework */,
+				227C111176E1D96070940BFD /* Pods_Fee_Calculator_For_Paypal_Fees.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B98CC5DE28D8EF1500094680 = {
 			isa = PBXGroup;
 			children = (
 				B98CC5E928D8EF1600094680 /* Fee Calculator For Paypal Fees */,
 				B98CC5E828D8EF1600094680 /* Products */,
+				4057AB5EC9A271C99DF66516 /* Pods */,
+				8BDDDF9BEEAE9FFAB1B490CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B98CC5FB28D8EF1900094680 /* Build configuration list for PBXNativeTarget "Fee Calculator For Paypal Fees" */;
 			buildPhases = (
+				B5D8196AF335E3F7D7928C55 /* [CP] Check Pods Manifest.lock */,
 				B98CC5E328D8EF1600094680 /* Sources */,
 				B98CC5E428D8EF1600094680 /* Frameworks */,
 				B98CC5E528D8EF1600094680 /* Resources */,
+				C44FCAC2AF386B0F9AA8C864 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5D8196AF335E3F7D7928C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fee Calculator For Paypal Fees-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44FCAC2AF386B0F9AA8C864 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B98CC5E328D8EF1600094680 /* Sources */ = {
@@ -284,11 +356,12 @@
 		};
 		B98CC5FC28D8EF1900094680 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06FDBC4F49BBA5140A80CBF /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = HNRK32U6CL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fee Calculator For Paypal Fees/Info.plist";
@@ -301,8 +374,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Julian.Fee-Calculator-For-Paypal-Fees";
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.paypal-fee-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,11 +385,12 @@
 		};
 		B98CC5FD28D8EF1900094680 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0546096F75210F17ACDBBB89 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = HNRK32U6CL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fee Calculator For Paypal Fees/Info.plist";
@@ -329,8 +403,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Julian.Fee-Calculator-For-Paypal-Fees";
+				MARKETING_VERSION = 1.1.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.paypal-fee-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
