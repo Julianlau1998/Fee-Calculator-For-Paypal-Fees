@@ -3,42 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B98CC5EB28D8EF1600094680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CC5EA28D8EF1600094680 /* AppDelegate.swift */; };
-		B98CC5ED28D8EF1600094680 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CC5EC28D8EF1600094680 /* SceneDelegate.swift */; };
-		B98CC5EF28D8EF1600094680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98CC5EE28D8EF1600094680 /* ViewController.swift */; };
-		B98CC5F228D8EF1600094680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98CC5F028D8EF1600094680 /* Main.storyboard */; };
+		6209EF49620781C6A3022550 /* Pods_Fee_Calculator_For_Paypal_Fees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1692001F9019F9F88545E14B /* Pods_Fee_Calculator_For_Paypal_Fees.framework */; };
+		6F0B1DE92A2D1BD700D5F68C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F0B1DEB2A2D1BD700D5F68C /* InfoPlist.strings */; };
 		B98CC5F428D8EF1900094680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98CC5F328D8EF1900094680 /* Assets.xcassets */; };
-		B98CC5F728D8EF1900094680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98CC5F528D8EF1900094680 /* LaunchScreen.storyboard */; };
-		B98CC5FF28D8F0FC00094680 /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98CC5FE28D8F0FC00094680 /* GoogleMobileAds.xcframework */; };
-		D11905603EF90184A621FD6B /* Pods_Fee_Calculator_For_Paypal_Fees.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C111176E1D96070940BFD /* Pods_Fee_Calculator_For_Paypal_Fees.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0546096F75210F17ACDBBB89 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fee Calculator For Paypal Fees.release.xcconfig"; path = "Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees.release.xcconfig"; sourceTree = "<group>"; };
-		227C111176E1D96070940BFD /* Pods_Fee_Calculator_For_Paypal_Fees.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fee_Calculator_For_Paypal_Fees.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B06FDBC4F49BBA5140A80CBF /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fee Calculator For Paypal Fees.debug.xcconfig"; path = "Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees.debug.xcconfig"; sourceTree = "<group>"; };
+		1692001F9019F9F88545E14B /* Pods_Fee_Calculator_For_Paypal_Fees.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fee_Calculator_For_Paypal_Fees.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EFBB806F5C48CA08365413 /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fee Calculator For Paypal Fees.debug.xcconfig"; path = "Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0B1DEA2A2D1BD700D5F68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0B1DEC2A2D1BE200D5F68C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0B1DED2A2D1BEB00D5F68C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0B1DEE2A2D1BF500D5F68C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0B1DEF2A2D1BFC00D5F68C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0B1DF02A2D1C2500D5F68C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F0B1DF12A2D1C2D00D5F68C /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86A63AC3B8268C35C4EAFF92 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fee Calculator For Paypal Fees.release.xcconfig"; path = "Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees.release.xcconfig"; sourceTree = "<group>"; };
 		B98CC5E728D8EF1600094680 /* Fee Calculator For Paypal Fees.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fee Calculator For Paypal Fees.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B98CC5EA28D8EF1600094680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B98CC5EC28D8EF1600094680 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B98CC5EE28D8EF1600094680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B98CC5F128D8EF1600094680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B98CC5F328D8EF1900094680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B98CC5F628D8EF1900094680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B98CC5F828D8EF1900094680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B98CC5FE28D8F0FC00094680 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = "Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FA0000000000000000000A1 /* Sources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Sources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B98CC5E428D8EF1600094680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98CC5FF28D8F0FC00094680 /* GoogleMobileAds.xcframework in Frameworks */,
-				D11905603EF90184A621FD6B /* Pods_Fee_Calculator_For_Paypal_Fees.framework in Frameworks */,
+				6209EF49620781C6A3022550 /* Pods_Fee_Calculator_For_Paypal_Fees.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,8 +47,8 @@
 		4057AB5EC9A271C99DF66516 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B06FDBC4F49BBA5140A80CBF /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */,
-				0546096F75210F17ACDBBB89 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */,
+				35EFBB806F5C48CA08365413 /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */,
+				86A63AC3B8268C35C4EAFF92 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -57,8 +56,7 @@
 		8BDDDF9BEEAE9FFAB1B490CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B98CC5FE28D8F0FC00094680 /* GoogleMobileAds.xcframework */,
-				227C111176E1D96070940BFD /* Pods_Fee_Calculator_For_Paypal_Fees.framework */,
+				1692001F9019F9F88545E14B /* Pods_Fee_Calculator_For_Paypal_Fees.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,13 +82,10 @@
 		B98CC5E928D8EF1600094680 /* Fee Calculator For Paypal Fees */ = {
 			isa = PBXGroup;
 			children = (
-				B98CC5EA28D8EF1600094680 /* AppDelegate.swift */,
-				B98CC5EC28D8EF1600094680 /* SceneDelegate.swift */,
-				B98CC5EE28D8EF1600094680 /* ViewController.swift */,
-				B98CC5F028D8EF1600094680 /* Main.storyboard */,
+				6FA0000000000000000000A1 /* Sources */,
 				B98CC5F328D8EF1900094680 /* Assets.xcassets */,
-				B98CC5F528D8EF1900094680 /* LaunchScreen.storyboard */,
 				B98CC5F828D8EF1900094680 /* Info.plist */,
+				6F0B1DEB2A2D1BD700D5F68C /* InfoPlist.strings */,
 			);
 			path = "Fee Calculator For Paypal Fees";
 			sourceTree = "<group>";
@@ -102,15 +97,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B98CC5FB28D8EF1900094680 /* Build configuration list for PBXNativeTarget "Fee Calculator For Paypal Fees" */;
 			buildPhases = (
-				B5D8196AF335E3F7D7928C55 /* [CP] Check Pods Manifest.lock */,
+				E0105215109101520217CB26 /* [CP] Check Pods Manifest.lock */,
 				B98CC5E328D8EF1600094680 /* Sources */,
 				B98CC5E428D8EF1600094680 /* Frameworks */,
 				B98CC5E528D8EF1600094680 /* Resources */,
-				C44FCAC2AF386B0F9AA8C864 /* [CP] Embed Pods Frameworks */,
+				572177A48B7ACAF359D00034 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6FA0000000000000000000A1 /* Sources */,
 			);
 			name = "Fee Calculator For Paypal Fees";
 			productName = "Fee Calculator For Paypal Fees";
@@ -124,8 +122,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
 					B98CC5E628D8EF1600094680 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -139,6 +137,12 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				fr,
+				it,
+				es,
+				sv,
+				nb,
 			);
 			mainGroup = B98CC5DE28D8EF1500094680;
 			productRefGroup = B98CC5E828D8EF1600094680 /* Products */;
@@ -155,16 +159,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98CC5F728D8EF1900094680 /* LaunchScreen.storyboard in Resources */,
 				B98CC5F428D8EF1900094680 /* Assets.xcassets in Resources */,
-				B98CC5F228D8EF1600094680 /* Main.storyboard in Resources */,
+				6F0B1DE92A2D1BD700D5F68C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5D8196AF335E3F7D7928C55 /* [CP] Check Pods Manifest.lock */ = {
+		572177A48B7ACAF359D00034 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0105215109101520217CB26 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -186,23 +210,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C44FCAC2AF386B0F9AA8C864 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fee Calculator For Paypal Fees/Pods-Fee Calculator For Paypal Fees-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,29 +217,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B98CC5EF28D8EF1600094680 /* ViewController.swift in Sources */,
-				B98CC5EB28D8EF1600094680 /* AppDelegate.swift in Sources */,
-				B98CC5ED28D8EF1600094680 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B98CC5F028D8EF1600094680 /* Main.storyboard */ = {
+		6F0B1DEB2A2D1BD700D5F68C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B98CC5F128D8EF1600094680 /* Base */,
+				6F0B1DEA2A2D1BD700D5F68C /* en */,
+				6F0B1DEC2A2D1BE200D5F68C /* de */,
+				6F0B1DED2A2D1BEB00D5F68C /* fr */,
+				6F0B1DEE2A2D1BF500D5F68C /* it */,
+				6F0B1DEF2A2D1BFC00D5F68C /* es */,
+				6F0B1DF02A2D1C2500D5F68C /* sv */,
+				6F0B1DF12A2D1C2D00D5F68C /* nb */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B98CC5F528D8EF1900094680 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B98CC5F628D8EF1900094680 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -242,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -289,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -303,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -344,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -356,58 +360,80 @@
 		};
 		B98CC5FC28D8EF1900094680 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B06FDBC4F49BBA5140A80CBF /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */;
+			baseConfigurationReference = 35EFBB806F5C48CA08365413 /* Pods-Fee Calculator For Paypal Fees.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = HNRK32U6CL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fee Calculator For Paypal Fees/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.paypal-fee-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B98CC5FD28D8EF1900094680 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0546096F75210F17ACDBBB89 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */;
+			baseConfigurationReference = 86A63AC3B8268C35C4EAFF92 /* Pods-Fee Calculator For Paypal Fees.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = HNRK32U6CL;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fee Calculator For Paypal Fees/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "app.paypal-fee-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
