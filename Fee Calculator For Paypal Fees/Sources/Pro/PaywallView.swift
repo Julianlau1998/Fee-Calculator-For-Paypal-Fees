@@ -65,7 +65,12 @@ struct PaywallView: View {
     @Environment(ProStore.self) private var pro
     @Environment(\.dismiss) private var dismiss
 
+    #if DEBUG
+    // Screenshot demo: the App Review screenshot shows the plan picker.
+    @State private var isShowingPlans = ScreenshotDemo.isActive && ScreenshotDemo.screen == .plans
+    #else
     @State private var isShowingPlans = false
+    #endif
 
     var body: some View {
         NavigationStack {

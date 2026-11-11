@@ -3,6 +3,7 @@
 //  Fee Calculator For Paypal Fees
 //
 
+import SwiftData
 import SwiftUI
 
 struct RootView: View {
@@ -11,6 +12,7 @@ struct RootView: View {
     @Environment(ProStore.self) private var pro
     @Environment(CalculatorModel.self) private var calculator
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.modelContext) private var modelContext
 
     @AppStorage(AppTheme.colorKey) private var themeColor = ThemeColor.paypal
     @AppStorage(AppTheme.backgroundKey) private var backgroundStyle = BackgroundStyle.subtle
@@ -77,6 +79,9 @@ struct RootView: View {
             guard !Task.isCancelled else { return }
             await ads.start()
         }
+        #if DEBUG
+        .task { ScreenshotDemo.prepare(router: router, calculator: calculator, context: modelContext) }
+        #endif
         // Last, so the sheets get the theme too.
         .environment(\.theme, theme)
         .tint(theme.accent)

@@ -64,6 +64,10 @@ struct CalculatorView: View {
                 Text("For example the buyer or the item, so you can find it later.")
             }
             .sensoryFeedback(.success, trigger: savedCount)
+            #if DEBUG
+            .navigationDestination(isPresented: Bindable(router).demoShowsProfit) { ProfitCalculatorView() }
+            .navigationDestination(isPresented: Bindable(router).demoShowsMarkets) { RegionPickerView() }
+            #endif
         }
     }
 

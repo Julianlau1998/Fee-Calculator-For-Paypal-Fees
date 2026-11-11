@@ -16,6 +16,11 @@ final class AppRouter {
     var selectedTab: AppTab = .calculator
     var isShowingWelcome = WelcomeView.needsPresentation
     var isShowingPaywall = false
+    #if DEBUG
+    /// Screenshot demo: pushes these screens in the calculator tab.
+    var demoShowsProfit = false
+    var demoShowsMarkets = false
+    #endif
     private(set) var isKeyboardVisible = false
 
     /// Tracks the keyboard so the banner can step aside while typing.
