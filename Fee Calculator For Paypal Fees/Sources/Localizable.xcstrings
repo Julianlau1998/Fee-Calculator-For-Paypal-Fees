@@ -208,6 +208,7 @@
       }
     },
     "All saved calculations as a CSV file for Excel, Numbers or your tax return." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -3169,6 +3170,7 @@
       }
     },
     "No ads, profit calculator and CSV export." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
@@ -4341,6 +4343,7 @@
       }
     },
     "Profit and margin after PayPal fees – and the price you need for your target profit." : {
+      "extractionState" : "stale",
       "localizations" : {
         "de" : {
           "stringUnit" : {
