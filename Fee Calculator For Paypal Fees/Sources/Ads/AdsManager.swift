@@ -20,8 +20,7 @@ enum AdConfig {
     #else
     static let bannerUnitID = "ca-app-pub-1006221991146598/2293592475"
     static let interstitialUnitID = "ca-app-pub-1006221991146598/5245309702"
-    /// TODO: Create an "App open" ad unit in AdMob and enter its ID. Until then no app open ads are shown.
-    static let appOpenUnitID: String? = nil
+    static let appOpenUnitID: String? = "ca-app-pub-1006221991146598/2693631349"
     #endif
 
     /// Height limit for the banner above the tab bar.
