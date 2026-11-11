@@ -5,8 +5,8 @@
   "settings" : {
     "_applicationInternalID" : "",
     "_failTransactionsEnabled" : false,
-    "_locale" : "de",
-    "_storefront" : "DEU",
+    "_locale" : "en_US",
+    "_storefront" : "USA",
     "_storeKitErrors" : []
   },
   "subscriptionGroups" : [
