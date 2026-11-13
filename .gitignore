@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcscmblueprint
+*.xccheckout
+
+# CocoaPods (restore with `pod install`; Podfile and Podfile.lock stay tracked)
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
